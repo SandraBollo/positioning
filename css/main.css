@@ -2,14 +2,15 @@ div {
 	background-color: white;
 	width:200px;
     height: 200px;
-   	
+  
 
  }
  .uno{ 
  	background-color: yellow;
+ 	position:static;
  	left:0px;
  	top: 0px;
- 	position: absolute;
+ 
 
  	
  	
@@ -17,14 +18,14 @@ div {
  .dos{background-color: blue;
  	right: 0px;
  	top: 0px;
-	position: absolute;
+	position: static;
  	
  
 
  }
 
 .tres{background-color: pink;
-	position: absolute;
+	position: static;
 	left:0px;
 	bottom: 0px;
 
@@ -32,8 +33,11 @@ div {
 .cuatro{ 
 	background-color: green;
 	position:absolute;
-	right: 0px;
-	bottom: 0px;
+	left: 200px;
+	
 	
 }
+body{ margin: 0px;
+	padding: 0px;
+	 background-image: url(http://previews.123rf.com/images/elenasz/elenasz1206/elenasz120600023/14150928-Fondo-con-motivos-tnicos-Patr-n-sin-fisuras-Foto-de-archivo.jpg);}
 
