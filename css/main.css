@@ -2,22 +2,38 @@ div {
 	background-color: white;
 	width:200px;
     height: 200px;
-   
+   	
 
  }
  .uno{ 
  	background-color: yellow;
- 	position: static;
+ 	left:0px;
+ 	top: 0px;
+ 	position: absolute;
+
  	
  	
  }
  .dos{background-color: blue;
- 	position:relative;
- 	left: 200px;
+ 	right: 0px;
+ 	top: 0px;
+	position: absolute;
+ 	
+ 
+
  }
 
 .tres{background-color: pink;
-	position: static;
+	position: absolute;
+	left:0px;
+	bottom: 0px;
 
+}
+.cuatro{ 
+	background-color: green;
+	position:absolute;
+	right: 0px;
+	bottom: 0px;
+	
 }
 
