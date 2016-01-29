@@ -1,0 +1,23 @@
+div {  
+	background-color: white;
+	width:200px;
+    height: 200px;
+   
+
+ }
+ .uno{ 
+ 	background-color: yellow;
+ 	position: static;
+ 	
+ 	
+ }
+ .dos{background-color: blue;
+ 	position:relative;
+ 	left: 200px;
+ }
+
+.tres{background-color: pink;
+	position: static;
+
+}
+
